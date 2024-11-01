@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electroflux Technologies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="register">
+        <h2>Register</h2>
+        <form id="registrationForm" onsubmit="return validateRegistration()">
+            <label for="regUsername">Username:</label>
+            <input type="text" id="regUsername" required>
+            
+            <label for="regEmail">Email:</label>
+            <input type="email" id="regEmail" required>
+            
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" required>
+            
+            <label for="regConfirmPassword">Confirm Password:</label>
+            <input type="password" id="regConfirmPassword" required>
+            
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="/index.html">Login here</a></p>
+    </section>  
+    <script src="script.js"></script>  
+</body>
+
+</html>
